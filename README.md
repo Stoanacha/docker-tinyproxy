@@ -1,3 +1,9 @@
+## Multiarch Build commands
+on Laptop:
+```bash
+docker buildx create --use
+docker buildx build --push --platform linux/arm/v7,linux/arm64/v8,linux/amd64 --tag stoanacha/tinyproxy:latest .
+```
 
 ## Repositories
 - [GitLab repository](https://gitlab.com/kalaksi-containers/tinyproxy/) (image: `registry.gitlab.com/kalaksi-containers/tinyproxy`)
