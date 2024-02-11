@@ -1,7 +1,7 @@
 version: '3.6'
 services:
   tinyproxy:
-    image: docker.io/kalaksi/tinyproxy
+    image: stoanacha/tinyproxy
     # You can also use GitLab as an alternative to Docker Hub:
     # image: registry.gitlab.com/kalaksi-containers/tinyproxy
     restart: unless-stopped
